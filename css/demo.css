@@ -1,0 +1,42 @@
+section {
+
+}
+
+.demo {
+    /* background-color: bisque; */
+    width: 56%;
+    margin-left: 22%;
+    margin-top: 3%;
+    font-size: 1.2rem;
+    text-align: center;
+}
+.demo h1 {
+    line-height: 2.5rem;
+    color: #2B0236;
+    margin-bottom: 2rem;
+}
+
+.demo a {
+    text-decoration: none;
+    padding: 0.6rem 1rem;
+    border-radius: 4px;
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 600;
+    background-color: #9A54BC;
+    
+}
+
+.circle {
+    margin-top: 2.5rem;
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+.big-circle {
+    /* transform: translateX(10rem); */
+    width: 26rem;
+    height: 26rem;
+    border-radius: 50%;
+    background-color: #f5e1ff90;
+}

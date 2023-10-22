@@ -1,0 +1,42 @@
+header {
+    /* display: block; */
+    /* margin:0rem 2rem 0rem 4rem ; */
+    padding: 0.8rem 2rem  0.8rem 4rem;
+    border-bottom: 0.14rem rgba(0, 0, 0, 0.062) solid;
+    box-sizing: content-box;
+    overflow: hidden;
+}
+header > p {
+    float: left;
+    font-size: 2rem;
+    color: #9A54BC;
+}
+
+header ul {
+    list-style-type: none;
+    float: right;
+}
+
+header ul li {
+    float: left;
+    margin: 0.5rem;
+    font-size: 1rem;
+    
+}
+
+header ul li a {
+    font-size: 0.8rem;
+    margin-top: 0.37rem;
+    display: block;
+    color: #2B0236;
+    text-align: center;
+    text-decoration: none;
+}
+
+header ul li:last-child a {
+    border: 0.13rem #9A54BC solid;
+    color: #2B0236;
+    border-radius: 4px;
+    padding: 0.2rem 0.4rem ;
+    margin-top: 0.1rem;
+}
