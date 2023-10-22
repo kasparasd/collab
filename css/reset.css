@@ -1,0 +1,12 @@
+body,
+body * {
+    box-sizing: border-box;
+    vertical-align: top;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
