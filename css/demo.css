@@ -4,19 +4,18 @@ section {
 
 .demo {
     /* background-color: bisque; */
-    width: 56%;
-    margin-left: 22%;
     margin-top: 3%;
-    font-size: 1.2rem;
     text-align: center;
 }
 .demo h1 {
+    font-size: 2rem;
+    font-weight: 400;
     line-height: 2.5rem;
     color: #2B0236;
     margin-bottom: 2rem;
 }
 
-.demo a {
+.demo > a {
     text-decoration: none;
     padding: 0.6rem 1rem;
     border-radius: 4px;
@@ -35,8 +34,53 @@ section {
 }
 .big-circle {
     /* transform: translateX(10rem); */
-    width: 26rem;
-    height: 26rem;
+    min-width: 28rem;
+    min-height: 28rem;
     border-radius: 50%;
-    background-color: #f5e1ff90;
+    background-color: #f5e1ff30;
+    position: relative;
+}
+.small-circle {
+    /* transform: translateX(10rem); */
+    width: 18rem;
+    height: 18rem;
+    border-radius: 50%;
+    background-color: #F5E1FF80;
+    position: absolute;
+    left: 5rem;
+    top: 1rem;
+}
+
+.phone {
+    position: absolute;
+    width: 9.5rem;
+    height: 19rem;
+    background-color: white;
+    left: 9.2rem;
+    top: 1.7rem;
+    border: #9A54BC 0.18rem solid;
+    border-radius: 10px;
+}
+
+.collab {
+    position: absolute;
+    top: 9.5rem;
+    left: 11.2rem;
+    font-size: 2rem;
+    color: #9A54BC;
+}
+
+.explore {
+    position: absolute;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #9A54BC;
+    background-color: white;
+    text-decoration: none;
+    border: 0.15rem #9A54BC solid;
+    border-radius: 4px;
+    
+    padding: 0.4rem 0.7rem;
+    left: 10.2rem;
+    top: 23rem;
 }
