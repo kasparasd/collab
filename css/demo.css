@@ -1,11 +1,7 @@
-section :nth-child(1) {
-    margin-bottom: 5rem;
-}
-
 .demo {
-    /* background-color: bisque; */
-    margin-top: 3%;
+    margin-top: 2rem;
     text-align: center;
+    margin-bottom: 5rem;
 }
 .demo h1 {
     font-size: 2rem;
@@ -33,7 +29,6 @@ section :nth-child(1) {
     justify-content: center;
 }
 .big-circle {
-    /* transform: translateX(10rem); */
     min-width: 28rem;
     min-height: 28rem;
     border-radius: 50%;
@@ -41,7 +36,6 @@ section :nth-child(1) {
     position: relative;
 }
 .small-circle {
-    /* transform: translateX(10rem); */
     width: 18rem;
     height: 18rem;
     border-radius: 50%;
