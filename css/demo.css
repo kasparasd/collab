@@ -1,5 +1,5 @@
-section {
-
+section :nth-child(1) {
+    margin-bottom: 5rem;
 }
 
 .demo {
@@ -47,7 +47,7 @@ section {
     border-radius: 50%;
     background-color: #F5E1FF80;
     position: absolute;
-    left: 5rem;
+    margin-left: calc(100% - 23rem); /* (28+18)/2*/
     top: 1rem;
 }
 
@@ -56,21 +56,24 @@ section {
     width: 9.5rem;
     height: 19rem;
     background-color: white;
-    left: 9.2rem;
+    left: calc(100% - 18.75rem); /*(28rem+9.5rem)/2*/
     top: 1.7rem;
     border: #9A54BC 0.18rem solid;
     border-radius: 10px;
 }
 
 .collab {
+    width: 6rem;
     position: absolute;
     top: 9.5rem;
-    left: 11.2rem;
+    left: calc(100% - 17rem); /*(6rem+28rem)/2*/
+    text-align: center;
     font-size: 2rem;
     color: #9A54BC;
 }
 
 .explore {
+    width: 7.7rem;
     position: absolute;
     font-size: 0.8rem;
     font-weight: 600;
@@ -79,8 +82,7 @@ section {
     text-decoration: none;
     border: 0.15rem #9A54BC solid;
     border-radius: 4px;
-    
     padding: 0.4rem 0.7rem;
-    left: 10.2rem;
+    left: calc(100% - 17.85rem); /* (7.7rem + 28rem)/2*/
     top: 23rem;
 }
