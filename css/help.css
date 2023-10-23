@@ -1,7 +1,7 @@
 .help {
     text-align: center;
     margin-bottom: 5rem;
-    /* background-color: gray; */
+    position: relative;
 }
 
 .help p {
@@ -12,15 +12,13 @@
 }
 
 .help-container {
-    width: 70%;
-    transform: translateX(27%);
-
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 .list {
-    margin-right: 5%;
-    width: 55%;
+    width: 50%;
     float: left;
-    height: 25rem;
     text-align: left;
 }
 
@@ -38,10 +36,26 @@
 
 .phone-container {
     float: right;
-    width: 40%;
+    width: 25%;
 }
 
 .help-container img {
     width: 11rem;
     height: 22.2rem;
+}
+
+.help-buttons div {
+    display: inline-block;
+    width: 11rem;
+    padding: 0.2rem 0.5rem;
+    border: #9A54BC 0.2rem solid;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    box-sizing: border-box;
+}
+
+.help-buttons div a {
+    display: flex;
+    justify-content: center;
 }
