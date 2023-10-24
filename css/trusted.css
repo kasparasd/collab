@@ -1,6 +1,8 @@
 .trusted {
+    /* width: 800px; */
     text-align: center;
     margin-bottom: 5rem;
+    /* background-color: aquamarine; */
 }
 .trusted p {
     font-size: 1.4rem;
@@ -9,5 +11,7 @@
     color: #000000;
 }
 .trusted-icons img {
+
     margin: 0 2.5rem;
 }
+

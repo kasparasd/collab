@@ -1,7 +1,8 @@
 .help {
     text-align: center;
     margin-bottom: 5rem;
-    /* background-color: gray; */
+    position: relative;
+    /* background-color: antiquewhite; */
 }
 
 .help p {
@@ -12,15 +13,12 @@
 }
 
 .help-container {
-    width: 70%;
-    transform: translateX(27%);
-
+    display: inline-block;
 }
 .list {
-    margin-right: 5%;
-    width: 55%;
+    /* background-color: greenyellow; */
+    width: 50%;
     float: left;
-    height: 25rem;
     text-align: left;
 }
 
@@ -28,20 +26,49 @@
     margin-bottom: 2rem;
 }
 
+.list ul {
+    margin-top: -1rem;
+    float: right;
+    width: 60%;
+}
 .list li {
     font-size: 0.8rem;
     background-color: #F2F2F2;
     padding: 1rem 0.8rem;
     margin-bottom: 0.5rem;
     list-style: none;
+    
 }
 
 .phone-container {
+    /* background-color: #9A54BC; */
+    margin-right: 10%;
     float: right;
     width: 40%;
+    margin-top: -4rem;
 }
 
 .help-container img {
     width: 11rem;
     height: 22.2rem;
 }
+
+
+.help-buttons {
+    /* background-color: #9A54BC; */
+    margin-left: -22rem;
+    /* display: inline; */
+    /* width: 30rem; */
+
+}
+
+.first-button, .second-button {
+    display: inline-block;
+    width: 12rem;
+    padding: 0.5rem 1rem;
+    border: #9A54BC 0.2rem solid;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+

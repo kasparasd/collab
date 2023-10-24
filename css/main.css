@@ -1,6 +1,9 @@
 main {
     /* background-color: yellow; */
-    margin-left: 5%;
-    width: 90%;
+    max-width: 1518px;
+    width: 100%;
+    /* max-width: max-content; */
+    margin: auto;
+    
 }
 
