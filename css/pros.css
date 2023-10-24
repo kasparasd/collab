@@ -1,0 +1,17 @@
+.pros {
+    text-align: center;
+    /* margin: 0 10%; */
+    /* background-color: blue; */
+    margin-bottom: 5rem;
+}
+
+.pros h2 {
+    margin-bottom: 2rem;
+}
+
+.pros p {
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    margin-bottom: 2rem;
+}
+
