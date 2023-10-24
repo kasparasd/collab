@@ -71,3 +71,13 @@
     background-color: white;
     color: black;
 }
+
+.see-more {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.see-more:hover {
+    color: #000000a9;
+}
