@@ -52,7 +52,7 @@
 
 .card {
     width: 16rem;
-    height: 25rem;
+    height: auto;
     text-align: left;
     padding: 1.5rem;
     border: #AAAAAA 0.1rem solid ;
