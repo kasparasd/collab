@@ -51,8 +51,8 @@
 }
 
 .card {
-    width: 15rem;
-    height: 23rem;
+    width: 16rem;
+    height: 25rem;
     text-align: left;
     padding: 1.5rem;
     border: #AAAAAA 0.1rem solid ;
@@ -96,11 +96,15 @@
 }
 
 .card ul li::marker {
-    list-style-image: url('../img/arrow.png');
-    /* color: green; */
+    content: none;
 }
-.card > ul > li {
-    margin-left: 1rem;
+
+.card ul li  {
+    margin-bottom: 0.5rem;
+}
+
+.card > ul > li img {
+    margin-top: 0.2rem;
 }
 
 
