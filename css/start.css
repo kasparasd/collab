@@ -1,0 +1,175 @@
+.start {
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.start > h2 {
+    margin-bottom: 1rem;
+}
+
+.start > p {
+    color: #A79D9D;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.duration {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.duration-monthly, .duration-yearly{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 0.4rem;
+}
+
+.monthly {
+    /* align-items: center; */
+    margin: 0;
+    color: #A79D9D;
+}
+
+.yearly {
+    color: #2B0236;
+}
+
+.yearly-discount {
+    background-color: #FFE87A;
+    border-radius: 10px;
+    padding: 0.2rem 0.5rem;
+}
+
+.cards {
+    margin-top: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.card {
+    width: 15rem;
+    height: 23rem;
+    text-align: left;
+    padding: 1.5rem;
+    border: #AAAAAA 0.1rem solid ;
+    border-radius: 10px;
+}
+
+.card:nth-child(3) {
+    background-color: #56E6A5;
+}
+
+
+.card-name {
+    margin-bottom: 1.5rem;
+}
+
+.card-price {
+    width: 100px;
+    margin-bottom: 2.7rem;
+}
+
+.start-request-demo-button {
+    font-size: 0.8rem;
+    font-weight: 600;
+    border: #2B0236 0.15rem solid;
+    border-radius: 5px;
+    padding: 0.6rem;
+    background-color: white;
+    color: #2B0236;
+    text-decoration: none;
+}
+
+.start-request-demo-button:hover {
+    background-color: black;
+    color: white;
+
+}
+
+.card > ul, .start-pros {
+    font-size: 0.9rem;
+    margin-top: 2.7rem;
+}
+
+.card ul li::marker {
+    list-style-image: url('../img/arrow.png');
+    /* color: green; */
+}
+.card > ul > li {
+    margin-left: 1rem;
+}
+
+
+
+
+
+
+
+/* //////////////////////////////////////////////////// copy */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 36px;
+    height: 20.4px;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #56E6A5;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 13px;
+    width: 13px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #56E6A5;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #56E6A5;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(16px);
+    -ms-transform: translateX(16px);
+    transform: translateX(16px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+  /* /////////////////////////////////////////////// copy */
