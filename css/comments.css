@@ -1,0 +1,24 @@
+.comments {
+    margin: 5rem 0;
+    text-align: center;
+}
+
+.comment{
+    width: 800px;
+}
+.comment-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.leftArrow, .rightArrow {
+    cursor: pointer;
+}
+
+.comments p {
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+}
