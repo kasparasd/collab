@@ -1,0 +1,30 @@
+.map {
+}
+
+.questions h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.questions p {
+    margin-bottom: 1rem;
+    font-size: 0.8rem;
+}
+
+.map-section-center {
+    margin: 0 auto;
+    width: 900px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.questions {
+    flex: 2;
+    margin:  auto;
+    text-align: center;
+}
+
+.map-img {
+    margin-right: 1rem;
+}
