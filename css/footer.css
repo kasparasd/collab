@@ -1,23 +1,75 @@
 .footer {
-    margin: 5rem 0 3rem 0;
+    margin: 5rem 0 0rem 3rem;
+}
+.footer h3 {
+    font-weight: 100;
+    font-size: 2rem;
+    color: #9A54BC;
 }
 
+
 .footer-container{
-    /* text-align: center; */
     display: flex;
     justify-content: center;
-    gap: 8rem;
+    gap: 7rem;
 }
 
 
 .footer-collab p:nth-child(2){
     margin-top: 1rem;
     width: 31ch;
+    line-height: 1.2;
 }
 
 .footer-about {
-    margin-top: 2.75rem;
+    margin-top: 2.3rem;
     display: flex;
-    gap: 2rem;
+    gap: 5rem;
+    position: relative;
 
+}
+
+.contact-us {
+    font-size: 0.9rem;
+    font-weight: 600;
+    position: absolute;
+    bottom: -1rem;
+}
+
+.contact-us span {
+    margin-left: 2rem;
+    font-weight: 400;
+    color: #60267F;
+}
+
+.footer-about > div > p {
+    font-size: 0.9rem;
+    margin-top: 1rem;
+    color: #60267F;
+}
+
+.footer-about > div > p:first-child {
+    font-weight: 600;
+    margin-top: 1rem;
+    color: black;
+}
+
+.follow-us {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.footer-collab img {
+    margin-right: 1rem;
+}
+
+.rights {
+    padding: 0.3rem;
+    font-size: 0.8rem;
+    color: white;
+    width: 100%;
+    background-color: #60267F;
+    text-align: center;
+    margin-top: 6rem;
 }
