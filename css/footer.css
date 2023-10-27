@@ -1,0 +1,23 @@
+.footer {
+    margin: 5rem 0 3rem 0;
+}
+
+.footer-container{
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    gap: 8rem;
+}
+
+
+.footer-collab p:nth-child(2){
+    margin-top: 1rem;
+    width: 31ch;
+}
+
+.footer-about {
+    margin-top: 2.75rem;
+    display: flex;
+    gap: 2rem;
+
+}
