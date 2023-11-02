@@ -12,14 +12,18 @@
 }
 
 .demo-button {
+    border: #9A54BC 2px solid;
     text-decoration: none;
-    padding: 0.6rem 1rem;
+    padding: 0.4rem 1rem;
     border-radius: 4px;
     color: white;
     font-size: 0.8rem;
     font-weight: 600;
     background-color: #9A54BC;
-    
+}
+.demo-button:hover {
+    color: #9A54BC;
+    background-color: white;
 }
 
 .circle {
@@ -79,4 +83,9 @@
     padding: 0.4rem 0.7rem;
     left: calc(100% - 17.85rem); /* (7.7rem + 28rem)/2*/
     top: 23rem;
+}
+
+.explore:hover {
+    color: white;
+    background-color: #9A54BC;
 }

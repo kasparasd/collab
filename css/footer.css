@@ -26,7 +26,14 @@
     display: flex;
     gap: 5rem;
     position: relative;
-
+}
+.footer-about div a {
+    display: block;
+    text-decoration: none;
+}
+.footer-about div a:hover {
+    text-decoration:underline;
+    color: black;
 }
 
 .contact-us {
@@ -41,14 +48,19 @@
     font-weight: 400;
     color: #60267F;
 }
+.contact-us span:hover {
+    cursor: pointer;
+    color: black;
+    text-decoration: underline;
+}
 
-.footer-about > div > p {
+.footer-about > div > a {
     font-size: 0.9rem;
     margin-top: 1rem;
     color: #60267F;
 }
 
-.footer-about > div > p:first-child {
+.footer-about > div > a:first-child {
     font-weight: 600;
     margin-top: 1rem;
     color: black;

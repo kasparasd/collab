@@ -66,12 +66,16 @@
 }
 
 .second-button {
-    
     border: white 0.2rem solid;
     background-color: white;
     color: black;
 }
+.second-button:hover {
+    border: rgba(0, 0, 0, 0) 0.2rem solid;
+    background-color: rgba(0, 0, 0, 0.055);
+    color: black;
 
+}
 .see-more {
     text-decoration: none;
     color: black;

@@ -6,6 +6,23 @@
     justify-content: center;
     align-items: center;
 }
+.join-us-button {
+    position: absolute;
+    z-index: 100;
+    margin-bottom: 5rem;
+    border: #9A54BC 2px solid;
+    text-decoration: none;
+    padding: 0.4rem 1rem;
+    border-radius: 4px;
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 600;
+    background-color: #9A54BC;
+}
+.join-us-button:hover {
+    color: #9A54BC;
+    background-color: white;
+}
 
 .joinUs p {
     margin-left: 450px;
@@ -14,7 +31,8 @@
 }
 
 .dots {
-    margin-top: -4rem;
+    position: relative;
+    margin-top: -1rem;
     width: 700px;
     min-height: 280px;
     background-image: url(../img/dots.png);
