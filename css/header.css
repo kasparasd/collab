@@ -9,7 +9,8 @@ header {
     margin: auto;
 }
 
-header > p {
+header > a {
+    text-decoration: none;
     float: left;
     font-size: 2rem;
     color: #9A54BC;
