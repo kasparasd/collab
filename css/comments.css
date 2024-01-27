@@ -5,6 +5,7 @@
 
 .comment{
     width: 800px;
+    height: 70px;
 }
 .comment-container {
     display: flex;
