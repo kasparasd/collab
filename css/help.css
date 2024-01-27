@@ -14,6 +14,7 @@
 
 .help-container {
     display: inline-block;
+    width: 80%;
 }
 .list {
     /* background-color: greenyellow; */
@@ -52,7 +53,7 @@
     text-align: center;
 }
 
-.first-button, .second-button {
+.help-button {
     font-size: 0.8rem;
     font-weight: 600;
     color: white;
@@ -63,14 +64,15 @@
     padding: 0.5rem 1rem;
     text-decoration: none;
     display: inline-block;
+    cursor: pointer;
 }
 
-.second-button {
+.inactive {
     border: white 0.2rem solid;
     background-color: white;
     color: black;
 }
-.second-button:hover {
+.inactive:hover {
     border: rgba(0, 0, 0, 0) 0.2rem solid;
     background-color: rgba(0, 0, 0, 0.055);
     color: black;

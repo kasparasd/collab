@@ -116,7 +116,7 @@ function plansHtml() {
       price = el["cardPrice"];
     }
     let liItems = [];
-    
+
     if (el["li"]) {
       el["li"].forEach((li) => {
         liItems += `<li><img src="./img/Vector.png" alt="">${li}</li>`;
@@ -154,4 +154,71 @@ slider.addEventListener("click", () => {
     slider.classList.add("monthly");
   }
   plansHtml();
+});
+
+// How does Collab-app help section
+
+const vendorBtn = document.querySelector(".b1");
+const supervisorBtn = document.querySelector(".b2");
+
+const vendorApp = [
+  {
+    bold: "Work/Material request:",
+    text: "Whenever a client wants to start a work, request notifications with date and time for materials and artisians will be promted through their app",
+  },
+  {
+    bold: "Project Management:",
+    text: "Work on multiple projects",
+  },
+  {
+    bold: "Payment:",
+    text: "Get paid for the step by step work",
+  },
+  {
+    bold: "Tutorials:",
+    text: "Explore the video tutorials to learn",
+  },
+];
+const supervisorApp = [
+  {
+    bold: "Project Management:",
+    text: "Work on multiple projects",
+  },
+  {
+    bold: "Payment:",
+    text: "Get paid for the step by step work",
+  },
+  {
+    bold: "Tutorials:",
+    text: "Explore the video tutorials to learn",
+  },
+];
+
+const helpUl = document.querySelector(".help-list");
+
+function helpHtml(arr) {
+  let list = "";
+  arr.forEach((el) => {
+    list += `
+    <li><b>${el["bold"]}</b> ${el["text"]}<a class="see-more" href="#"> ...see more</a></li>
+    `;
+  });
+  return  helpUl.innerHTML = list;
+}
+
+helpHtml(vendorApp);
+
+vendorBtn.addEventListener("click", function () {
+  if (vendorBtn.classList.contains("inactive")) {
+    vendorBtn.classList.remove("inactive");
+    supervisorBtn.classList.add("inactive");
+    helpHtml(vendorApp);
+  }
+});
+supervisorBtn.addEventListener("click", function () {
+  if (supervisorBtn.classList.contains("inactive")) {
+    supervisorBtn.classList.remove("inactive");
+    vendorBtn.classList.add("inactive");
+    helpHtml(supervisorApp);
+  }
 });
